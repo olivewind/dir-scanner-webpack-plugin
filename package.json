@@ -1,0 +1,24 @@
+{
+  "name": "dir-scanner--webpack-plugin",
+  "title": "dir-scanner--webpack-plugin",
+  "version": "0.0.1",
+  "description": "A webpack plugin for scanning directory and outputting all file names",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "directory",
+    "scanner",
+    "plugin",
+    "webpack"
+  ],
+  "author": "olivewind",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olivewind/dir-scanner--webpack-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/olivewind/dir-scanner--webpack-plugin/issues"
+  }
+}
