@@ -1,19 +1,19 @@
-# dir-scanner--webpack-plugin
-[![dir-scanner--webpack-plugin](https://img.shields.io/npm/v/dir-scanner--webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/dir-scanner--webpack-plugin)
-[![NPM downloads](https://img.shields.io/npm/dt/dir-scanner--webpack-plugin.svg?style=flat-square)](https://npmjs.org/package/dir-scanner--webpack-plugin)
+# dir-scanner-webpack-plugin
+[![dir-scanner-webpack-plugin](https://img.shields.io/npm/v/dir-scanner-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/dir-scanner-webpack-plugin)
+[![NPM downloads](https://img.shields.io/npm/dt/dir-scanner-webpack-plugin.svg?style=flat-square)](https://npmjs.org/package/dir-scanner-webpack-plugin)
 
 ### A webpack plugin for scanning directory and outputting all file names
 
 ## Install
 ``` bash
-npm install dir-scanner--webpack-plugin -D
+npm install dir-scanner-webpack-plugin -D
 ```
 
 ## Usage
 ``` javascript
 // webpack.config.js
 
-const DirScannerWebpackPlugin = require('./dir-scanner--webpack-plugin')
+const DirScannerWebpackPlugin = require('./dir-scanner-webpack-plugin')
 module.exports = {
 
   //...
