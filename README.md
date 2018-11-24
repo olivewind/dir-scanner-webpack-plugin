@@ -5,10 +5,8 @@
 ### A webpack plugin for scanning directory and outputting all file names
 
 ## Install
-
-Using npm:
-```
-npm install dir-scanner--webpack-plugin --save
+``` bash
+npm install dir-scanner--webpack-plugin -D
 ```
 
 ## Usage
