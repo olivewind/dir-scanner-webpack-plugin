@@ -62,7 +62,14 @@ class DirScannerWebpackPlugin {
     const str = `/* eslint-disable */
 ${exportStr}[${this.items.map(s => `'${s}'`).toString()}];
 `;
-    fs.writeFileSync(path.join(this.output.path, this.output.filename), str);
+    const p = path.join(this.output.path, this.output.filename);
+    try {
+      const e = fs.readFileSync(p);
+      if (e.toString() === str) return;
+    } catch (error) {
+      // pass
+    }
+    fs.writeFileSync(p, str);
   }
 
   clean() {
