@@ -60,7 +60,7 @@ class DirScannerWebpackPlugin {
   exportFile() {
     const exportStr = this.output.export === ExportTypes[0] ? 'export default ' : 'module.exports = ';
     const str = `/* eslint-disable */
-${exportStr}[${this.items.map(s => `'${s}'`).toString()}];
+${exportStr}${JSON.stringify(this.items, null, 2)};
 `;
     const p = path.join(this.output.path, this.output.filename);
     try {
